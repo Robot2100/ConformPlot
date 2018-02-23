@@ -15,15 +15,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="src\stdafx.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <None Include=".gitattributes">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include=".gitmodules">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ConformPlot.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ConformPlot.cpp">
+    <ClCompile Include="src\stdafx.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
